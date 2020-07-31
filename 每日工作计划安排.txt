@@ -1,0 +1,94 @@
+每日工作计划
+2020年7月29日 星期三
+1.迁移ace-center
+2.迁移ace-common
+3.迁移ace-gateway
+4.迁移ace-auth
+5.迁移ace-auth-server
+6.迁移ace-dc
+7.修改项目名称,代码路径,groupID,artifactID
+8.整体目标:整体代码可以运行
+9.梳理请求调用路径,整理对前端暴露的接口
+10.梳理数据库表及字段
+
+日报:
+1.PCC权限后台开发
+2.梳理数据库表及字段
+
+2020年7月30日 星期四
+1.整理权限数据库表,建立数据库表
+2.梳理权限逻辑及相应代码逻辑
+3.修改代码逻辑,使其符合新的数据库表
+4.代码能正常运行
+
+2020年7月31日 星期五
+1.pcc-dc 切换到本地数据库能够运行
+	数据库连接需要指定时区 serverTimezone=GMT%2B8 不然无法启动,启动时与连得哪个数据库无关
+2.测试连接本地数据库的登录等请求连接
+	1)缺少sys_gate_log数据库 com.pcc.dc.devOpsManage.operLog.service.impl.OperLogServiceImpl#insertOperlog
+	dc_update_log  sys_login_log
+3.梳理pcc-auth-client代码调用流程
+4.梳理pcc-auth-server代码调用流程
+5.梳理pcc-gateway代码调用流程
+6.梳理pcc-dc代码调用流程
+7.资源/菜单/角色/人员 数据库合并 代码开发
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
